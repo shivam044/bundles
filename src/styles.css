@@ -10,3 +10,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   border-radius: 8px;
   padding: 0; /* Remove padding to allow full customizability */
 }
+
+.form-check-input:checked{
+  background-color: green;
+  border-color: green;
+}
