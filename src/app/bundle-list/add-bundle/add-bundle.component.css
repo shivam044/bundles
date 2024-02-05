@@ -18,9 +18,30 @@
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
 
+
 mat-form-field {
   width: 90%;
+  margin-top: -10px;
 }
+
+.mat-form-field-wrapper {
+  padding-bottom: 0.5em; 
+}
+
+.mat-form-field-label {
+  margin: 0; 
+}
+
+.mat-form-field-underline {
+  height: 1px; 
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0px; 
+}
+
 
 
 

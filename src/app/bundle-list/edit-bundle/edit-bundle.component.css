@@ -66,6 +66,23 @@
   min-width: 300px;
 }
 
+
 mat-form-field {
   width: 90%;
+  margin-top: -10px;
+}
+
+.mat-form-field-wrapper {
+  padding-bottom: 0.5em; 
+}
+
+.mat-form-field-label {
+}
+
+.mat-form-field-underline {
+  height: 1px; 
+}
+
+::ng-deep .mat-form-field-wrapper{
+  margin-bottom: -1.25em;
 }
