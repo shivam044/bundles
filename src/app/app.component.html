@@ -1,0 +1,15 @@
+
+<div class="app-layout" fxLayout="row" fxFlexFill>
+  <app-sidebar></app-sidebar>
+
+  <div class="main-content" fxLayout="row" fxFlex>
+    <div class="bundle-list" fxFlex="30">
+      <app-bundle-list></app-bundle-list>
+    </div>
+
+    <div style="background-color: white;" class="bundle-detail" fxFlex>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+

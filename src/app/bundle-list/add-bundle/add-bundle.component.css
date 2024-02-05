@@ -1,0 +1,26 @@
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #34C759;
+  border-color: #34C759;
+}
+
+.custom-control-label::before {
+  background-color: #D1D1D1;
+  border-color: #D1D1D1;
+}
+
+.form-control-outlined {
+  border: 1px solid #ced4da;
+  background-color: transparent;
+}
+
+.form-control-outlined:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+mat-form-field {
+  width: 90%;
+}
+
+
+

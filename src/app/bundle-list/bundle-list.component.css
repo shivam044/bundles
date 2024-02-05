@@ -1,0 +1,40 @@
+.bundle-list-container {
+  padding: 0px;
+  background: #fff;
+  overflow: auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+  --bs-card-border-color: none !important;
+}
+
+
+.card:hover {
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.arrow-indicator {
+  padding-left: 1rem;
+  font-size: 2rem;
+  color: #000;
+}
+
