@@ -11,6 +11,7 @@ export class AddBundleComponent {
   form!: NgForm;
   drivers: any;
   isLoading: any;
+  rowHeight: number = 60;
   cancel() {}
   formState: any;
   isActive: boolean = true;
@@ -20,10 +21,11 @@ export class AddBundleComponent {
       headerName: 'Product',
       field: 'product',
       width: 400,
-      cellRendererFramework: PictureRendererComponent,
+      cellRenderer: PictureRendererComponent,
       cellRendererParams: {
         onClick : this.onGridClick(this)
       },
+      cellClass: 'ag-cell-center' 
     },
     {
       headerName: 'SKU',
@@ -70,8 +72,6 @@ export class AddBundleComponent {
   onSubmit() {
     if (this.form.valid) {
       console.log('Form Submitted!', this.form.value);
-      // Here you can also call a service to send the form data to a server
-      // this.someService.sendData(this.form.value).subscribe(...);
     }
   }
 

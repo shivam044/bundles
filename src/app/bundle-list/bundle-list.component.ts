@@ -49,6 +49,6 @@ export class BundleListComponent implements OnInit {
 
   toggleActive() {
     this.showActiveOnly = !this.showActiveOnly;
-    this.onSearch(''); // No type error here since '' is a string
+    this.onSearch('');
   }
 }

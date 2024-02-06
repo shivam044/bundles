@@ -41,6 +41,42 @@ mat-form-field {
   margin-left: 0;
   padding: 0px; 
 }
+.ag-cell-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.product-selector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.image-placeholder {
+  width: 50px;
+  height: 50px; 
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+}
+
+.select-button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.select-button:hover {
+  background-color: #f8f8f8;
+}
 
 
 
